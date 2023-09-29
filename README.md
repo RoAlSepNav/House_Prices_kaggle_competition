@@ -1,5 +1,5 @@
 # <span style="color:cyan"> House Prices - Advanced Regression Techniques :house:
-### <span style="color:lightblue"> Descripción del Proyecto
+### <span style="color:lightblue"> Descripción del Proyecto :clipboard:
 Este proyecto utiliza el conjunto de datos disponible en Kaggle (https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) para realizar un análisis de datos utilizando Python. El objetivo principal es predecir el precio de venta para las casas aplicando técnicas de aprendizaje automático.
 
 ### <span style="color:lightblue"> Evaluación :chart_with_upwards_trend:
