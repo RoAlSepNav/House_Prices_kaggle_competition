@@ -1,4 +1,4 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYpd2e-B8SRuveAp0y5YDSjk92QknTF_OnqDsdLaKUorJhCy2dikftT4Ddpq7IiENxzQ&usqp=CAU">
+<img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/Stock-Neighborhood-Development-AdobeStock307010071%20copy.jpg">
 
 # <span style="color:cyan"> House Prices - Advanced Regression Techniques :house:
 ### <span style="color:lightblue"> Descripción del Proyecto :clipboard:
