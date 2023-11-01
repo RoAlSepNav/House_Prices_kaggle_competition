@@ -47,28 +47,24 @@ El Jupyter notebook proporciona un análisis completo de los datos, que incluye:
 - Evaluación del modelo: Evaluación del Root-Mean-Squared-Error (RMSE) y rendimiento del modelo.
 
 ### Modelos Utilizados :computer:
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Random Forest Classifier
-- Support Vector Classifier (SVC)
-- Gradient Boosting Classifier
-- Bernoulli Naive Bayes
-- Linear Discriminant Analysis
-- AdaBoost Classifier
-- Voting Classifier
+- K-Nearest Neighbors Regressor
+- Random Forest Regressor
+- AdaBoost Regressor
+- Gradient Boosting Regressor
+- LightGBM Regressor
+- Voting Regressor
 
 ### Resultados :bar_chart:
-Se evaluaron todos los modelos utilizando la métrica micro-averaged F1-Score, y los resultados son los siguientes:
+Se evaluaron todos los modelos utilizando la métrica Root-Mean-Squared-Error (RMSE), y los resultados son los siguientes:
 
-- Logistic Regression: F1-Score: 0.7
-- K-Nearest Neighbors: F1-Score: 0.68
-- Random Forest Classifier: F1-Score: 0.73
-- Support Vector Classifier: F1-Score: 0.71
-- Gradient Boosting Classifier: F1-Score: 0.74
-- Bernoulli Naive Bayes: F1-Score: 0.68
-- Linear Discriminant Analysis: F1-Score: 0.7
-- AdaBoost Classifier: F1-Score: 0.7
-- Voting Classifier: F1-Score: 0.75
+- K-Nearest Neighbors Regressor: RMSE: 41011
+- Random Forest Regressor: RMSE: 32324
+- AdaBoost Regressor: RMSE: 33261
+- Gradient Boosting Regressor: RMSE: 30395
+- LightGBM Regressor: RMSE: 31170
+- Voting Regressor: RMSE: 29661
 
-Para el Voting Classifier se hizo una combinación de los dos mejores modelos, logrando reducir el overfitting y así obtener un mejor desempeño del modelo sobre nuevos datos.
+
+Para la selección del mejor modelo se consideró obtener el menor valor de RMSE y adicionalmente tener un bajo valor de MAE ya que esta métrica indica claramente en cuánto puede variar el valor de una casa. Por lo que el modelo seleccionado es un VotingRegressor que integra los modelos RandomForestRegressor, GradientBoostingRegressor y LGBMRegressor, todos en su tercera iteración.
+  Con esta combinación se obtiene un RMSE de 29661.228 y un MAE de 15832.778 dólares.
 
