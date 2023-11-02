@@ -1,3 +1,5 @@
+# House Prices - Advanced Regression Techniques :house:
+
 <img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/Stock-Neighborhood-Development-AdobeStock307010071%20copy.jpg">
 
 ## Tabla de contenidos
@@ -11,8 +13,6 @@
 7. [Modelos Utilizados](#modelos-utilizados-computer)
 8. [Resultados](#resultados-bar_chart)
 
-
-# House Prices - Advanced Regression Techniques :house:
 
 ### Descripción del Proyecto :clipboard:
 Este proyecto utiliza el conjunto de datos disponible en Kaggle (https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) para realizar un análisis de datos utilizando Python. El objetivo principal es predecir el precio de venta para las casas aplicando técnicas de aprendizaje automático.
